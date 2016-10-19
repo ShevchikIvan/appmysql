@@ -8,7 +8,7 @@ RUN npm install
 
 ADD . /usr/src/app
 
-ADD app.sh /usr/src/app/app.js
+ADD app.js /usr/src/app/app.js
 RUN chmod +x /usr/src/app/app.js
 CMD "/usr/src/app/app.js"
 CMD node app.js
