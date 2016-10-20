@@ -7,3 +7,26 @@ steps:
     image-name: shevchikivan/appmysql
     dockerfile: Dockerfile
     tag: latest
+  composition:
+    type: composition
+    description: Free text description
+    working-directory: ${{build-step-name}}
+    composition:
+      version: '2'
+      services:
+        test:
+                image: 'shevchikivan/appmysql:master'
+                portts:
+                  - 3000
+              mysql:
+                image: mysql
+                environment:
+                  MYSQL_ROOT_PASSWORD: 12345
+                command: echo 'run and exit'
+    composition-candidates:
+      test-service:
+        image: ${{build-step}}
+        command: gulp integration_test
+    composition-variables:
+      - key=value
+    fail-fast: false
