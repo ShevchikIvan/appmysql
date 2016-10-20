@@ -25,7 +25,7 @@ steps:
                 command: echo 'run and exit'
     composition-candidates:
       test-service:
-        image: ${{build-step}}
+        image: ${{build-step-name}}
         command: gulp integration_test
     composition-variables:
       - key=value
