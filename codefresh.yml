@@ -22,8 +22,7 @@ steps:
           image: mysql
           environment:
             MYSQL_ROOT_PASSWORD: 12345
-          commands:
-            - echo $(date)
+          command: echo $(date)
     composition-candidates:
       test-service:
           image: ${{build-step-name}}
