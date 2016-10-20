@@ -21,12 +21,11 @@ steps:
         mysql:
                 image: mysql
                 environment:
-                  MYSQL_ROOT_PASSWORD: 12345
-                command: echo 'run and exit'
+                  MYSQL_ROOT_PASSWORD: 12345             
     composition-candidates:
       test-service:
         image: ${{build-step-name}}
-        command: gulp integration_test
+        command: echo 'run and exit'
     composition-variables:
       - key=value
     fail-fast: false
