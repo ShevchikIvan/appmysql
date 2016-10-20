@@ -21,12 +21,12 @@ steps:
         mysql:
           image: mysql
           environment:
-            MYSQL_ROOT_PASSWORD: ${{Password}}
+            MYSQL_ROOT_PASSWORD: 12345
           command: echo $(date)
     composition-candidates:
       test-service:
           image: ${{build-step-name}}
           command: echo 'run and exit'
     composition-variables:
-          - Password=12345
+          - key=value
     fail-fast: false

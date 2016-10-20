@@ -38,7 +38,7 @@
         <entry file="file://$PROJECT_DIR$/codefresh.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
-              <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+              <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -592,7 +592,7 @@
       <option name="presentableId" value="Default" />
       <updated>1476871226175</updated>
       <workItem from="1476871227354" duration="730000" />
-      <workItem from="1476961705160" duration="6630000" />
+      <workItem from="1476961705160" duration="7446000" />
     </task>
     <task id="LOCAL-00001" summary="add dockerfile">
       <created>1476871328422</created>
@@ -748,11 +748,18 @@
       <option name="project" value="LOCAL" />
       <updated>1476971499526</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="added composition step codefresh.yml&#10;">
+      <created>1476971682889</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1476971682889</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7360000" />
+    <option name="totallyTimeSpent" value="8176000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -830,7 +837,7 @@
     <entry file="file://$PROJECT_DIR$/codefresh.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
           <folding />
         </state>
       </provider>
