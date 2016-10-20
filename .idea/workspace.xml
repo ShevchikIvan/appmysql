@@ -37,8 +37,8 @@
       <file leaf-file-name="codefresh.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/codefresh.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+            <state relative-caret-position="425">
+              <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -592,7 +592,7 @@
       <option name="presentableId" value="Default" />
       <updated>1476871226175</updated>
       <workItem from="1476871227354" duration="730000" />
-      <workItem from="1476961705160" duration="4392000" />
+      <workItem from="1476961705160" duration="6250000" />
     </task>
     <task id="LOCAL-00001" summary="add dockerfile">
       <created>1476871328422</created>
@@ -727,11 +727,18 @@
       <option name="project" value="LOCAL" />
       <updated>1476967093141</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="added composition step codefresh.yml&#10;">
+      <created>1476967168578</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1476967168578</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5122000" />
+    <option name="totallyTimeSpent" value="6980000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -808,8 +815,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/codefresh.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        <state relative-caret-position="425">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
           <folding />
         </state>
       </provider>
