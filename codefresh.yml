@@ -1,0 +1,9 @@
+version: '1.0'
+
+steps:
+  build-step-name:
+    type: build
+    description: mysql example
+    image-name: shevchikivan/appmysql
+    dockerfile: Dockerfile
+    tag: latest

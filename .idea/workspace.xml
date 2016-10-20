@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8e9e0c5-996c-431b-8623-480bc650ccd2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codefresh.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codefresh.yml" afterPath="$PROJECT_DIR$/codefresh.yml" />
     </list>
     <ignored path="appmysql.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,8 +37,8 @@
       <file leaf-file-name="codefresh.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/codefresh.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="102">
+              <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -58,6 +58,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Dockerfile" />
+        <option value="$PROJECT_DIR$/codefresh.yml" />
       </list>
     </option>
   </component>
@@ -591,7 +592,7 @@
       <option name="presentableId" value="Default" />
       <updated>1476871226175</updated>
       <workItem from="1476871227354" duration="730000" />
-      <workItem from="1476961705160" duration="61000" />
+      <workItem from="1476961705160" duration="120000" />
     </task>
     <task id="LOCAL-00001" summary="add dockerfile">
       <created>1476871328422</created>
@@ -635,11 +636,18 @@
       <option name="project" value="LOCAL" />
       <updated>1476961729130</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added codefresh.yml&#10;">
+      <created>1476961777663</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1476961777663</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="791000" />
+    <option name="totallyTimeSpent" value="850000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -685,7 +693,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add dockerfile" />
     <MESSAGE value="changed dockerfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed dockerfile" />
+    <MESSAGE value="added codefresh.yml&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="added codefresh.yml&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -714,8 +723,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/codefresh.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="102">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
           <folding />
         </state>
       </provider>
