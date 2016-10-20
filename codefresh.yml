@@ -21,7 +21,7 @@ steps:
         mysql:
           image: mysql
           environment:
-          MYSQL_ROOT_PASSWORD: 12345
+            MYSQL_ROOT_PASSWORD: 12345
     composition-candidates:
       test-service:
           image: ${{build-step-name}}
