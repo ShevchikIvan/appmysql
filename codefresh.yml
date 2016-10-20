@@ -15,8 +15,8 @@ steps:
       version: '2'
       services:
         test:
-                image: 'shevchikivan/appmysql:master'
-                portts:
+                image: ${{build-step-name}}
+                ports:
                   - 3000
         mysql:
                 image: mysql
